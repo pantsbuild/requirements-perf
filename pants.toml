@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.8.0"
+pants_version = "2.9.0.dev3"
 backend_packages = [
   "pants.backend.python",
 ]
@@ -8,7 +8,6 @@ pantsd_max_memory_usage = "4GiB"
 [python]
 interpreter_constraints = [">=3.8,<3.9"]
 requirement_constraints = "pants-requirements.txt"
-interpreter_search_paths = ["/usr/local/opt/python@3.8/bin", "/usr/local/bin", "<PATH>"]
 
 [python-infer]
 inits = true
