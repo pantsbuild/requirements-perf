@@ -1,0 +1,19 @@
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:aiohttp",
+        "//:dataclasses-json",
+        "//:django",
+        "//:django-stubs",
+        "//:djangorestframework",
+        "//:launchdarkly-server-sdk",
+        "//:pants-requirements.txt",
+        "//:psycopg2-binary",
+        "//:pytest",
+        "//:pytest-django",
+        "//:python-dateutil",
+        "//:raygun4py",
+        "//:requests",
+        "//:typeguard",
+    ],
+)

@@ -1,0 +1,12 @@
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:django",
+        "//:django-stubs",
+        "//:ipinfo",
+        "//:pants-requirements.txt",
+        "//:psycopg2-binary",
+        "//:pytest",
+        "//:pytest-django",
+    ],
+)

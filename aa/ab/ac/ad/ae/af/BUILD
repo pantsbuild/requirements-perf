@@ -1,0 +1,20 @@
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:coverage",
+        "//:django",
+        "//:django-stubs",
+        "//:haikunator",
+        "//:launchdarkly-server-sdk",
+        "//:pants-requirements.txt",
+        "//:psycopg2-binary",
+        "//:pytest",
+        "//:pytest-django",
+        "//:python-dateutil",
+        "//:pyyaml",
+        "//:raygun4py",
+        "//:sentry-sdk",
+        "//:typeguard",
+        "//:typing-extensions",
+    ],
+)

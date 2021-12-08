@@ -1,0 +1,21 @@
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:coverage",
+        "//:django",
+        "//:django-stubs",
+        "//:gremlinpython",
+        "//:haikunator",
+        "//:marshmallow",
+        "//:marshmallow-enum",
+        "//:pants-requirements.txt",
+        "//:psycopg2-binary",
+        "//:pytest",
+        "//:pytest-django",
+        "//:python-dateutil",
+        "//:sentry-sdk",
+        "//:tornado",
+        "//:typing-extensions",
+        "//:typing-inspect",
+    ],
+)

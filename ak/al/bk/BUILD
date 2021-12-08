@@ -1,0 +1,15 @@
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:boto3",
+        "//:django",
+        "//:django-stubs",
+        "//:moto",
+        "//:pants-requirements.txt",
+        "//:psycopg2-binary",
+        "//:pytest",
+        "//:pytest-django",
+        "//:python-dateutil",
+        "//:pytz",
+    ],
+)
