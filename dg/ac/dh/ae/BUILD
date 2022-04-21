@@ -1,0 +1,33 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiohttp",
+        "//:reqs#aiomonitor",
+        "//:reqs#backoff",
+        "//:reqs#cachetools",
+        "//:reqs#coverage",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#fastavro",
+        "//:reqs#faust-streaming",
+        "//:reqs#graphene",
+        "//:reqs#gremlinpython",
+        "//:reqs#haikunator",
+        "//:reqs#ipinfo",
+        "//:reqs#launchdarkly-server-sdk",
+        "//:reqs#marshmallow",
+        "//:reqs#marshmallow-enum",
+        "//:reqs#nest-asyncio",
+        "//:reqs#prometheus-client",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pytest",
+        "//:reqs#pytest-django",
+        "//:reqs#python-dateutil",
+        "//:reqs#sentry-sdk",
+        "//:reqs#typeguard",
+        "//:reqs#typing-extensions",
+        "//:reqs#typing-inspect",
+        "//:reqs#yarl",
+    ]
+)

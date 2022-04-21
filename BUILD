@@ -1,4 +1,5 @@
 python_requirements(
+    name="reqs",
     source="pants-requirements.txt",
     module_mapping={
         "faust-streaming": ("faust",),

@@ -1,0 +1,21 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiobotocore",
+        "//:reqs#boto3",
+        "//:reqs#botocore",
+        "//:reqs#coverage",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#flask",
+        "//:reqs#haikunator",
+        "//:reqs#moto",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pytest",
+        "//:reqs#pytest-django",
+        "//:reqs#python-dateutil",
+        "//:reqs#requests",
+        "//:reqs#typing-extensions",
+    ]
+)

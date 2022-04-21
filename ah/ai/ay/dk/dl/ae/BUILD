@@ -1,0 +1,30 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiobotocore",
+        "//:reqs#aiohttp",
+        "//:reqs#azure-core",
+        "//:reqs#azure-identity",
+        "//:reqs#azure-mgmt-monitor",
+        "//:reqs#boto3",
+        "//:reqs#botocore",
+        "//:reqs#coverage",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#google-api-python-client",
+        "//:reqs#google-cloud-monitoring",
+        "//:reqs#haikunator",
+        "//:reqs#httplib2",
+        "//:reqs#launchdarkly-server-sdk",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pydash",
+        "//:reqs#pytest",
+        "//:reqs#pytest-asyncio",
+        "//:reqs#pytest-django",
+        "//:reqs#python-dateutil",
+        "//:reqs#setuptools",
+        "//:reqs#typeguard",
+        "//:reqs#typing-extensions",
+    ]
+)

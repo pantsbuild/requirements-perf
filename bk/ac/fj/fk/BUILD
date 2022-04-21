@@ -1,0 +1,22 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiocache",
+        "//:reqs#attrs",
+        "//:reqs#backoff",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#fastavro",
+        "//:reqs#faust-streaming",
+        "//:reqs#httpx",
+        "//:reqs#launchdarkly-server-sdk",
+        "//:reqs#mock",
+        "//:reqs#prometheus-client",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pytest",
+        "//:reqs#pytest-django",
+        "//:reqs#sentry-sdk",
+        "//:reqs#typeguard",
+    ]
+)

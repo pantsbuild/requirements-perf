@@ -1,0 +1,19 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiohttp",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#gremlinpython",
+        "//:reqs#launchdarkly-server-sdk",
+        "//:reqs#marshmallow",
+        "//:reqs#marshmallow-enum",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pytest",
+        "//:reqs#pytest-django",
+        "//:reqs#sentry-sdk",
+        "//:reqs#typeguard",
+        "//:reqs#typing-inspect",
+    ]
+)

@@ -1,0 +1,18 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiomonitor",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#faust-streaming",
+        "//:reqs#more-itertools",
+        "//:reqs#prometheus-client",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pydantic",
+        "//:reqs#pytest",
+        "//:reqs#pytest-django",
+        "//:reqs#sentry-sdk",
+        "//:reqs#structlog",
+    ]
+)

@@ -1,0 +1,26 @@
+
+python_tests(
+    name="tests",
+    dependencies=[
+        "//:reqs#aiopg",
+        "//:reqs#backoff",
+        "//:reqs#django",
+        "//:reqs#django-stubs",
+        "//:reqs#fastavro",
+        "//:reqs#faust-streaming",
+        "//:reqs#haikunator",
+        "//:reqs#launchdarkly-server-sdk",
+        "//:reqs#marshmallow",
+        "//:reqs#marshmallow-dataclass",
+        "//:reqs#nest-asyncio",
+        "//:reqs#prometheus-client",
+        "//:reqs#psycopg2-binary",
+        "//:reqs#pytest",
+        "//:reqs#pytest-asyncio",
+        "//:reqs#pytest-django",
+        "//:reqs#python-dateutil",
+        "//:reqs#sentry-sdk",
+        "//:reqs#sqlalchemy",
+        "//:reqs#typeguard",
+    ]
+)
