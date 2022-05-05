@@ -1,6 +1,6 @@
-python_requirements(
+poetry_requirements(
     name="reqs",
-    source="pants-requirements.txt",
+    #source="pants-requirements.txt",
     module_mapping={
         "faust-streaming": ("faust",),
         "mode-streaming": ("mode",),

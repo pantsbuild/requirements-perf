@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.11.0.dev3"
+pants_version = "2.11.0"
 backend_packages = [
   "pants.backend.python",
 ]
@@ -7,7 +7,10 @@ pantsd_max_memory_usage = "8GiB"
 
 [python]
 interpreter_constraints = [">=3.8,<3.9"]
-requirement_constraints = "pants-requirements.txt"
+enable_resolves = true
+lockfile_generator = "pex"
+resolves = { python-default = "python-default.lock" }
+default_resolve = "python-default"
 
 [python-infer]
 inits = true
@@ -27,7 +30,7 @@ indexes = [
 execution_slot_var = "PANTS_EXECUTION_SLOT"
 
 [subprocess-environment]
-env_vars = [
+env_vars.add = [
     "LA_LIBRARY_FILEPATH",
 ]
 
