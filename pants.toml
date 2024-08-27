@@ -1,5 +1,5 @@
 [GLOBAL]
-pants_version = "2.11.0"
+pants_version = "2.22.0rc2"
 backend_packages = [
   "pants.backend.python",
 ]
@@ -8,18 +8,14 @@ pantsd_max_memory_usage = "8GiB"
 [python]
 interpreter_constraints = [">=3.8,<3.9"]
 enable_resolves = true
-lockfile_generator = "pex"
 resolves = { python-default = "python-default.lock" }
 default_resolve = "python-default"
 
 [python-infer]
-inits = true
+init_files = "always"
 
 [source]
 marker_filenames = ["SOURCE_ROOT"]
-
-[anonymous-telemetry]
-enabled = false
 
 [python-repos]
 indexes = [
@@ -35,7 +31,7 @@ env_vars.add = [
 ]
 
 [test]
-xml_dir = "dist/.test_results/"
+report = true
 
 extra_env_vars = [
     "TMPDIR",

@@ -25,7 +25,6 @@ python_tests(
         "//:reqs#pytest",
         "//:reqs#pytest-django",
         "//:reqs#python-dateutil",
-        "//:reqs#python-evtx",
         "//:reqs#python-registry",
         "//:reqs#requests",
         "//:reqs#requests-aws4auth",

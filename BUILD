@@ -1,6 +1,6 @@
-poetry_requirements(
+python_requirements(
     name="reqs",
-    #source="pants-requirements.txt",
+    source="pants-requirements.txt",
     module_mapping={
         "faust-streaming": ("faust",),
         "mode-streaming": ("mode",),
@@ -34,7 +34,6 @@ poetry_requirements(
         "pycryptodome": ("Crypto",),
         "pyelftools": ("elftools",),
         "yara-python": ("yara",),
-        "python-evtx": ("Evtx",),
     },
 )
 
